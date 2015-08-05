@@ -48,7 +48,7 @@ local ZSH_TIME=%D{%H:%M}
 local PADDING=''
 
 if [ $OS = "Darwin" ]; then
-	local LOGO=""
+	local LOGO="🐩  💩 "
 else
 	local LOGO="🐧"
 fi
@@ -161,4 +161,5 @@ PROMPT="$PROMPT ${RESET} "
 if [ $ZSH_POWERLINE_SHOW_RETURN_CODE = true ]; then
 	RPROMPT="${RETURN_CODE}"
 fi
+
 
